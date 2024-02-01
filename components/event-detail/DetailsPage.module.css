@@ -1,0 +1,121 @@
+.eventDetails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  place-items: center;
+  width: 90vw;
+  margin: 3rem auto 10rem auto;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.center{
+  display: grid;
+  place-items: center;
+  margin: 10rem auto;
+}
+.wrapper{
+  background-color: #ffffff;
+}
+
+.infoSection {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nameText{
+  margin: 2rem 0;
+}
+
+.nameText p{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.headerText {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.headerText h2 {
+  color: green;
+  background-color: #a2f0bc;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 10px;
+}
+
+.headerText p {
+  color: #222;
+  background-color: #f5f6fa;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.date{
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.location{
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.date p, .location p{
+  margin-left: 0.5rem;
+}
+.author{
+  color: #222;
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.8;
+  text-transform: capitalize;
+}
+
+.actions{
+  background-color: #12bd4b;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 0.7rem 1rem;
+  text-transform: capitalize;
+  /* font-weight: 600; */
+  width: 125px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s linear;
+  margin: 1rem 0;
+}
+.actions:hover{
+  background-color: #298e4b;
+}
+
+.outcome{
+  margin: 1rem 0;
+}
+.outcome p{
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.outcome .description{
+  font-weight: 600;
+  color: #222;
+  font-size: 0.95rem;
+}

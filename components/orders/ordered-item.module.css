@@ -1,0 +1,17 @@
+.event{
+    display: grid;
+    grid-template-columns: 3fr 1.5fr 1fr 1.5fr 1fr;
+    grid-gap: 1rem;
+    list-style: none;
+    padding: 0.5rem;
+    background-color: #95afc0;
+}
+.event p{
+    font-weight: 600;
+    color: #222;
+    font-size: 1rem;
+}
+
+.event .id{
+    color: blueviolet;
+}

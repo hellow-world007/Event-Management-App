@@ -1,0 +1,54 @@
+.profilePage {
+  background-color: #ced6e0;
+  padding: 8rem 15rem 3rem 15rem;
+}
+
+/* .profilePage p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  padding: 1rem 0;
+} */
+.profileMyTickets{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profileHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title{
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  text-transform: capitalize;
+}
+.profileBtn{
+  background-color: #12bd4b;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 0.7rem 1rem;
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  /* font-weight: 600; */
+  /* width: 125px; */
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.profileBtn:hover{
+  background-color: #298e4b;
+}
+.tickets {
+  width: 100%;
+  max-width: 90rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: 5rem;
+  margin: 2rem auto;
+  list-style: none;
+  padding: 0;
+}

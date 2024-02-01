@@ -1,0 +1,32 @@
+.eventsPage {
+  padding: 6rem 15rem;
+}
+
+.eventsPage h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  padding: 1rem 0;
+}
+
+.tableHeader {
+  width: 100%;
+  max-width: 90rem;
+  display: grid;
+  grid-template-columns: 3fr 1.5fr 1fr 1.5fr 1fr;
+  grid-gap: 1rem;
+  margin: 2rem auto;
+  list-style: none;
+  padding: 0.5rem;
+}
+.tableHeader li{
+  font-weight: 600;
+  color: #222;
+  font-size: 0.9rem;
+}
+.orders{
+  width: 100%;
+  max-width: 90rem;
+  margin: 2rem auto;
+  list-style-type: none;
+}

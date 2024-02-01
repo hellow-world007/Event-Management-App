@@ -1,0 +1,85 @@
+.iconContainer {
+  font-weight: bold;
+  background-color: #fff;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.iconContainer a .icon {
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+}
+.iconContainer .icon2 {
+  cursor: pointer;
+}
+
+.deletePopup{
+  padding: 1rem 2rem;
+  width: 25rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 200ms;
+}
+
+.deletePopup p{
+  text-align: center;
+  color: #222;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.btns{
+  text-align: right;
+}
+
+.cancelBtn{
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all 0.4s ease-in-out;
+}
+
+.cancelBtn:hover{
+  color: gray;
+}
+.deleteBtn{
+  border: none;
+  background: var(--color-success-500);
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  text-transform: capitalize;
+  transition: all 0.4s ease-in-out;
+}
+.deleteBtn:hover{
+  background-color: #5bd583;
+}
+
